@@ -1,2 +1,2 @@
-https://github.com/Bobbbba/rsschool-cv/cv
+https://github.com/Bobbbba/rsschool-cv/
 
