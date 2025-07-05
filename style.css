@@ -137,10 +137,23 @@ html {
 }
 
 .section-title{
-  
-    width: 500px;
-    min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  width: 500px;
+  min-height: 250px;
+  justify-content: center;
 }
+.section-title> img{
+  width: 50%;
+}
+.text-title{
+  justify-self: center;
+}
+.foto-container{
+  width: 220px;
+}
+
 
   .section {
     /* width: 50%; */
@@ -172,4 +185,9 @@ html {
 }
 .rsschool{
   cursor: pointer;
+}
+.foto {
+  max-width: 40%;
+  justify-self: center;
+  border-radius: 10%;
 }
