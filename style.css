@@ -172,6 +172,9 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
   }
+  .code{
+    padding-left: 25px;
+  }
 
 
   .section {
