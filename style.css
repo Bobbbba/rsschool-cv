@@ -48,7 +48,7 @@ a:not([class]) {
 }
 
 img {
-  max-width: 50%;
+  max-width: 100%;
   display: block;
 }
 
@@ -92,16 +92,7 @@ body{
     src: url("assets/fonts/Roboto.ttf");
   }
 
-  /* .header {
-    border: 1px solid red;
-  }
-  .main {
-    border: 1px solid red;
-  }
-  .footer {
-    border: 1px solid red;
-  }
-   */
+
   .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -133,6 +124,7 @@ body{
   display: flex;
   justify-self:center;
   border: 2px solid red;
+  margin: 0 0 20px 0;
 }
 
 
@@ -169,6 +161,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  color: rgb(96, 57, 9);
   
 }
 h2 {
@@ -180,9 +173,13 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  color: rgb(96, 57, 9);
   }
   .code{
     padding-left: 25px;
+  }
+  p{
+    color: rgb(96, 57, 9);
   }
 
 
@@ -231,5 +228,18 @@ h2 {
 .foto {
   max-width: 40%;
   justify-self: center;
-  border-radius: 10%;
+  border-radius: 40%;
 }
+.projects__list {
+  display: grid;
+   justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 25px; */
+}
+.projects__item{
+  justify-self:center;
+}
+.projects__item>img{
+  width: 100%;
+}
+
