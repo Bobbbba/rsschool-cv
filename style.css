@@ -262,6 +262,18 @@ h2 {
 @media(max-width: 500px) {
   .section{
     width: 90%;
-    
+    }
+    .section-title{
+      width: 90%;
+    }
+    li {
+      padding: 0 2px;
+  }
+  .main-container {
+    display: flex
+;
+    justify-self: center;
+    margin: 0 0 20px 20px;
+    border-radius: 2%;
 }
 }
