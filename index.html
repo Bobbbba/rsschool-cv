@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href="assets/favicon.png"/>
+    <title>cv</title>
 </head>
 <body>
     <header class = "header ">
@@ -69,9 +69,9 @@
                 <p class="code">function getMaxSubSum(arr) {<br>
                     let maxSum = 0;<br>
                   
-                    for (let i = 0; i &lt arr.length; i++) {<br>
+                    for (let i = 0; i &lt; arr.length; i++) {<br>
                       let sumFixedStart = 0;<br>
-                      for (let j = i ; j &lt arr.length; j++) {<br>
+                      for (let j = i ; j &lt; arr.length; j++) {<br>
                         sumFixedStart += arr[j];<br>
                         maxSum = Math.max(maxSum, sumFixedStart);<br>
                       }<br>
