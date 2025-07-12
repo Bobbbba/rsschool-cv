@@ -125,7 +125,7 @@ body{
 
 .main-container{
   display: flex;
-  /* justify-self:center; */
+  justify-self:center;
  
   margin: 0 0 20px 0;
   border-radius:2%;
