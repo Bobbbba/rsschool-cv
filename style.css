@@ -209,12 +209,11 @@ h2 {
   }
   
 
-@media(max-width: 768px) {
-  .section{
-    width: 100%;
-    
-}
-}
+
+
+
+
+
 .container-footer{
   display: flex;
   justify-content:space-around;
@@ -251,4 +250,18 @@ h2 {
 }
 .footer{
  background: rgb(98, 89, 136);
+}
+
+@media(max-width: 768px) {
+  .section{
+    width: 100%;
+    
+}
+}
+
+@media(max-width: 500px) {
+  .section{
+    width: 90%;
+    
+}
 }
