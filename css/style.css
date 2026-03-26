@@ -179,14 +179,18 @@ body {
     background:  rgb(98, 89, 136);;
     
     }
-
     .code{
         padding-left: 25px;
       }
-    
-     
-      .section {
+
+    .section {
         width: 500px;
         min-height: 250px;
         border-radius: 5px;
       }
+      
+    .icons-list li {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
