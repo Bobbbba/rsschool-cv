@@ -188,9 +188,74 @@ body {
         min-height: 250px;
         border-radius: 5px;
       }
-      
+
     .icons-list li {
         display: flex;
         align-items: center;
         gap: 5px;
     }
+    .container-footer{
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        align-items: center;
+      }
+      .footer{
+        background: rgb(98, 89, 136);
+       }
+
+       @media(max-width: 1365px) {
+
+        .header-container{
+          padding: 0 150px ;
+        }
+        }
+        @media(max-width: 1250px) {
+        
+          .header-container{
+            padding: 0 100px ;
+          }
+          }
+          @media(max-width: 1150px) {
+        
+            .header-container{
+              padding: 0 50px ;
+            }
+            }
+        
+        @media(max-width: 768px) {
+          .section{
+            width: 100%;
+           }
+        .header-container{
+          padding: 0 ;
+        }
+        }
+        
+        @media(max-width: 500px) {
+          .section{
+            width: 100%;
+            }
+            .section-title{
+              width: 90%;
+            }
+            li {
+              padding: 0 2px;
+          }
+          .main-container {
+            display: flex;
+            justify-self: center;
+            margin: 0 0 20px 20px;
+            border-radius: 2%;
+        }
+        
+        }
+        @media(max-width: 400px) {
+          .main-container{
+            margin: 0;
+          }
+          .section-title{
+            display: block;
+          }
+          
+        }
