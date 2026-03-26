@@ -204,6 +204,24 @@ body {
         background: rgb(98, 89, 136);
        }
 
+       .projects-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+       }
+      .projects__image{
+        object-fit: cover;
+        width: 200px ;
+        height: 141px;
+      }
+      .projects__title{
+        text-align: center;
+        color: rgb(232, 185, 127);
+        background-color: rgb(98, 89, 136);;
+        
+      }
+
        @media(max-width: 1365px) {
 
         .header-container{
